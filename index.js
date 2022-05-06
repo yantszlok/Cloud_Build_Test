@@ -5,7 +5,7 @@
  * @param {!express:Response} res HTTP response context.
  */
  exports.cloud_build_test = (req, res) => {
-    let message = req.query.message || req.body.message || 'Cloud Build Test from yantszlok repository test12345678';
+    let message = req.query.message || req.body.message || 'Cloud Build Test from yantszlok repository test123456789';
     res.status(200).send(message);
   };
   
