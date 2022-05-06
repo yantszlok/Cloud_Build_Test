@@ -4,10 +4,10 @@ steps:
   - gcloud
   - functions
   - deploy
+  - --allow-unauthenticated
   - cloudBuildTest
   - --entry-point=cloud_build_test
   - --region=asia-northeast1
   - --source=.
   - --trigger-http
   - --runtime=nodejs16
-  - --allow-unauthenticated
