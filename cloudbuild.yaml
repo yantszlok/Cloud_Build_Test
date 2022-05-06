@@ -6,10 +6,9 @@ steps:
   - deploy
   - --allow-unauthenticated
   - cloudBuildTest
+  - --memory=512MB
   - --entry-point=cloud_build_test
   - --region=asia-northeast1
   - --source=.
   - --trigger-http
   - --runtime=nodejs16
-  - --member=allUsers 
-  - --role=roles/cloudfunctions.invoker
