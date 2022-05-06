@@ -11,3 +11,5 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=nodejs16
+  - --member=allUsers 
+  - --role=roles/cloudfunctions.invoker
