@@ -7,5 +7,6 @@ steps:
   - cloudbuildtest
   - --region=asia-northeast1
   - --source=.
-  - --trigger-app
+  - --trigger-http
   - --runtime=nodejs16
+  --entry-point helloWorld
