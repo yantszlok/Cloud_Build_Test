@@ -5,6 +5,7 @@ steps:
   - functions
   - deploy
   - cloudBuildTest
+  - --entry-point=cloud_build_test
   - --region=asia-northeast1
   - --source=.
   - --trigger-http
