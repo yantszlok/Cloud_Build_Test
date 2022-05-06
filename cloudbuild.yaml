@@ -15,10 +15,4 @@ steps:
 
 - name: 'allow-unauthenticated'
   args:
-  - gcloud alpha 
-  - functions 
-  - add-iam-policy-binding 
-  - cloudBuildTest 
-  - --region=asia-northeast1 
-  - --member=allUsers 
-  - --role=roles/cloudfunctions.invoker
+  - gcloud alpha functions add-iam-policy-binding cloudBuildTest --region=asia-northeast1 --member=allUsers --role=roles/cloudfunctions.invoker
