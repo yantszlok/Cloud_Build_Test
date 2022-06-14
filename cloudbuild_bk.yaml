@@ -1,4 +1,11 @@
 # steps:
+
+# - name: 'gcr.io/cloud-builders/docker'
+#   args: [ 'build', '-t', 'asia-northeast1-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_IMAGE}', '.' ]
+# images:
+# - 'asia-northeast1-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_IMAGE}'
+
+# steps:
 # - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
 #   args:
 #   - gcloud
