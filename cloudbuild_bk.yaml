@@ -9,4 +9,4 @@
 #   - --source=.
 #   - --trigger-http
 #   - --runtime=nodejs16
-#   - --allow-unauthenticated 
+#   - --allow-unauthenticated
